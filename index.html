@@ -8,17 +8,17 @@
 
     <title>Reebok</title>
     <style>
-        
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
         .box{
-            font-family: 'Open Sans', sans-serif;
+            font-family: "Encode Sans Expanded", sans-serif;
             width: 20%;
             height: auto;
             display: inline-block;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+            /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
             border-radius: 10px;
             margin-left: 20px;
             padding: 5px;
+            font-size: 13px;
             /* box-sizing: border-box; */
             background-color: white;
 
@@ -38,9 +38,19 @@
             width: 100%;
         }
         .productname{ width: 100%;
+            font-size: 15px;
             height: 20px;
             overflow: hidden;
 
+        }
+        .slideicon{
+            margin-left: 100px;
+
+        }
+        .shoestype{
+            display: inline-block;
+            padding-bottom: 10px;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -59,7 +69,10 @@
         <div style="margin-left: 10%; margin-top: 10%;">
             <div class="box">
                 <img class="photo" src="https://imagescdn.reebok.in/img/app/product/9/921360-11570124.jpg?q=75&auto=format&w=387" alt="">
-                <p class="name">RUNNING SHOES</p>
+                <span class="shoestype">RUNNING SHOES</span>
+                <span class="slideicon">
+                    <img style="margin: 0% padding: 0%;;" src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg" alt="">
+                </span>
                 <div class="productname">
                     <p style="margin: 0%;">Reebok Men Lite 3 Running Shoes</p>
                 </div>
@@ -67,7 +80,10 @@
             </div>
             <div class="box">
                 <img class="photo" src="https://imagescdn.reebok.in/img/app/product/9/905005-11144482.jpg?q=75&auto=format&w=387" alt="">
-                <p class="name">RUNNING SHOES</p>
+                <span class="shoestype">RUNNING SHOES</span>
+                <span class="slideicon">
+                    <img style="margin: 0% padding: 0%;;" src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg" alt="">
+                </span>
                 <div class="productname">
                     <p style="margin: 0%;">REEBOK MEN ENERGY STREAK M</p>
                 </div>
@@ -75,7 +91,10 @@
             </div>
             <div class="box">
                 <img class="photo" src="https://imagescdn.reebok.in/img/app/product/9/929419-11770751.jpg?q=75&auto=format&w=387" alt="">
-                <p class="name">RUNNING SHOES</p>
+                <span class="shoestype">WALKING SHOES</span>
+                <span class="slideicon">
+                    <img style="margin: 0% padding: 0%;;" src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg" alt="">
+                </span>
                 <div class="productname">
                     <p style="margin: 0%;">REEBOK MEN PROPULSION 2 0</p>
                 </div>
@@ -83,7 +102,10 @@
             </div>
             <div class="box">
                 <img class="photo" src="https://imagescdn.reebok.in/img/app/product/8/866106-10259081.jpg?q=75&auto=format&w=387" alt="">
-                <p class="name">RUNNING SHOES</p>
+                <span class="shoestype">RUNNING SHOES</span>
+                <span class="slideicon">
+                    <img style="margin: 0%; padding: 0%;" src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg" alt="">
+                </span>
                 <div class="productname">
                     <p style="margin: 0%;">REEBOK MEN AIM LEGACY M</p>
                 </div>
@@ -91,5 +113,6 @@
             </div>
         </div>
     </main>
+    <br><br><br>
 </body>
 </html>
